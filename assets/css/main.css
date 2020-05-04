@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 400, 600, 700, 800, 900";
+@import "./join.css";
 
 /*
 	Projection by TEMPLATED
@@ -3479,3 +3480,4 @@ img.virufy-image {
 .footer-icons a:hover{
 	opacity : 0.5;
 }
+
