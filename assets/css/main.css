@@ -3481,3 +3481,14 @@ img.virufy-image {
 	opacity : 0.5;
 }
 
+/* Styles for Donate button in the NavBar */
+#header button {
+	background-color: #f1f1f1;
+	box-shadow: inset 0 0 0 3px #4bae77;
+}
+
+/* Minimised navbar is navPanel */
+#navPanel button {
+	background-color: #f1f1f1;
+	box-shadow: inset 0 0 0 3px #4bae77;
+}
