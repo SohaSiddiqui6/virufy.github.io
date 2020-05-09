@@ -1818,6 +1818,9 @@ i {
 
 p {
 	margin: 0 0 2em 0;
+	color: #555;
+	font-size: 120%;			/* Added this to match <h1> styles on index.html */	
+	font-weight: 400;
 }
 
 h1,
@@ -3314,7 +3317,7 @@ button:disabled,
 */
 
 /* Collaborators Heading */
-#collaborators {
+#collaborators h1 {
 	font-size: 48px;
 	margin: 0;
 	/*Overrides default 1.5em bottom margin for h1 - h6*/
