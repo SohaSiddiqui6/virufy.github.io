@@ -3328,7 +3328,17 @@ button:disabled,
 	margin: 0 3em;
 }
 
+#u-lahore-logo {
+	margin-top: 3em;
+}
+
 /*media queries for icons sizing*/
+@media screen and (min-width: 960px) {
+	#u-lahore-logo {
+		width: 10em;
+	}
+}
+
 @media screen and (min-width: 750px) and (max-width: 800) {
 	.collab img {
 		width: 8em;
@@ -3341,6 +3351,10 @@ button:disabled,
 		width: 7em;
 		margin: 0 1.5em;
 	}
+
+	#u-lahore-logo {
+		margin-top: 2.5em;
+	}
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
@@ -3348,12 +3362,20 @@ button:disabled,
 		width: 6em;
 		margin: 0 1.2em;
 	}
+
+	#u-lahore-logo {
+		margin-top: 2.5em;
+	}
 }
 
 @media screen and (max-width: 400px) {
 	.collab img {
 		width: 5em;
 		margin: 0 1em;
+	}
+
+	#u-lahore-logo {
+		margin-top: 2em;
 	}
 }
 
