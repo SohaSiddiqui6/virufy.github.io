@@ -3536,3 +3536,28 @@ img.virufy-image {
 .green-highlight {
 	color: #6cc091;
 }
+
+/* For replacing inline styles */
+.bold {
+	font-weight: bold;
+}
+
+.big-h1 {
+	font-size: 48px;
+}
+
+.connect-icon {
+	margin: 0px 20px;
+}
+
+#fb-icon {
+	color: #0f8ef2;
+}
+
+#twitter-icon {
+	color: #5eaade;
+}
+
+#linkedin-icon {
+	color: #0077b5;
+}
