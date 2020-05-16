@@ -84,17 +84,21 @@
 
 		<div id="get-started">
 			<h2 class="green-highlight">Get Started</h2>
+			<!-- <p>
+				Our data and instructions for usage can be found on <a id="open-data-mail" href="https://github.com/virufy/covid/tree/master/data" class="green-highlight">our GitHub page</a>. 
+				Our cough and textual models for processing the data are also uploaded.
+			</p> -->
 			<p>
 				Our data and instructions for usage can be found on <a href="https://github.com/virufy/covid/tree/master/data" class="green-highlight">our GitHub page</a>. 
 				Our cough and textual models for processing the data are also uploaded.
-			</p>
+			</p>			
 		</div>
 
 		<div id="data-contact">
 			<h2 class="green-highlight">Collaboration</h2>
 			<p>
 				We warmly welcome review of our data and code. We hope to create a community of researchers driven to use this data to create solutions for the pandemic. 
-				Please email us at <a href="mailto:open-data@virufy.org" class="green-highlight">open-data@virufy.org</a> if you are interested.
+				Please email us at <a class="hidden-mail green-highlight" data-username="open-data" data-inline="true"></a> if you are interested.
 			</p>
 		</div>
 	</section>
@@ -116,7 +120,7 @@
 				<a href="https://www.facebook.com/Virufy/" target="_blank">
 					<i class="icon fab fa-facebook-f fa-2x"></i>
 				</a>&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="mailto:info@virufy.org">
+				<a class="hidden-mail" data-username="info" data-inline="false">
 					<i class="fas fa-envelope fa-2x"></i>
 				</a>
 			</div>
@@ -133,6 +137,7 @@
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/email.js"></script>
 </body>
 
 </html>
